@@ -112,6 +112,8 @@ layer 2, head 2: 0.585 of its attention goes to the previous token
 layer 3, head 7: 0.462 of its attention goes to the previous token
 ```
 
+![alt text](image-3.png)
+
 ```
 most extreme head on the RIGHT grid: layer 7, head 10  (mean attention to token 0 = 0.964)
 mean attention to token 0, averaged over the 12 heads of each layer:
