@@ -72,6 +72,38 @@ P(' Paris') = 0.2208
 P('Paris')  = 0.000009
 ```
 
+```
+prompt: 'Kazakhstan is famous for'   T=1.0
+logits shape: (50257,)   probabilities sum to 1.0000
+  54.19%   id    663   ' its'
+   6.81%   id    852   ' being'
+   4.17%   id    262   ' the'
+   3.50%   id   1719   ' having'
+   1.40%   id    340   ' it'
+  top-5 hold 70.1%; the other 50,252 tokens share 29.9%
+
+prompt: 'The largest city in Kazakhstan is'   T=1.0
+logits shape: (50257,)   probabilities sum to 1.0000
+   8.57%   id   5140   ' located'
+   7.81%   id    262   ' the'
+   4.28%   id   1900   ' known'
+   4.17%   id    783   ' now'
+   2.89%   id    991   ' still'
+  top-5 hold 27.7%; the other 50,252 tokens share 72.3%
+
+prompt: 'Artificial intelligence can'   T=1.0
+logits shape: (50257,)   probabilities sum to 1.0000
+  15.29%   id    307   ' be'
+   7.19%   id    635   ' also'
+   7.05%   id   1037   ' help'
+   2.80%   id    470   "'t"
+   2.52%   id    466   ' do'
+  top-5 hold 34.9%; the other 50,252 tokens share 65.1%
+
+P(' Paris') = 0.2208
+P('Paris')  = 0.000009
+```
+
 ## Temperature
 ```
 maximum possible entropy (all 50,257 tokens equally likely): 10.825 nats
